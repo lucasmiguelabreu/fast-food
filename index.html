@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Burger House</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav>
+        <div class="nav__header">
+          <div class="nav__logo">
+            <a href="#">
+              <img
+                src="assets/logo-dark.png"
+                alt="logo"
+                class="nav__logo-dark"
+              />
+              <img
+                src="assets/logo-white.png"
+                alt="logo"
+                class="nav__logo-white"
+              />
+            </a>
+          </div>
+          <div class="nav__menu__btn" id="menu-btn">
+            <i class="ri-menu-line"></i>
+          </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+          <li><a href="#home">ÍNICIO</a></li>
+          <li><a href="#special">SUGESTÕES</a></li>
+          <li><a href="#menu">MENU</a></li>
+          <li><a href="#event">EVENTOS</a></li>
+          <li><a href="#contact">CONTATOS</a></li>
+        </ul>
+      </nav>
+      <div class="section__container header__container" id="home">
+        <div class="header__image">
+          <img src="assets/header.png" alt="header" />
+        </div>
+        <div class="header__content">
+          <h2>O MOMENTO PERFEITO PARA SABOREAR O MELHOR HAMBÚRGUER.</h2>
+          <h1>SEMANA<br /><span>BURGER</span></h1>
+        </div>
+      </div>
+    </header>
+
+    <section class="section__container banner__container" id="special">
+      <div class="banner__card">
+        <p>EXPERIMENTE HOJE</p>
+        <h4>HAMBÚRGUER MAIS POPULAR</h4>
+      </div>
+      <div class="banner__card">
+        <p>EXPERIMENTE HOJE</p>
+        <h4>MAIS DIVERSÃO<br />MAIS SABOR</h4>
+      </div>
+      <div class="banner__card">
+        <p>EXPERIMENTE HOJE</p>
+        <h4>FRESH & CHILI</h4>
+      </div>
+    </section>
+
+    <section class="section__container order__container" id="menu">
+      <h3>SEMPRE UM HAMBÚRGUER SABOROSO.</h3>
+      <h2 class="section__header">ESCOLHA E APROVEITE.</h2>
+      <p class="section__description">
+        Seja para sabores clássicos ou se aventurar em combinações ousadas, aqui começa a sua jornada gastronômica. Satisfaça seus desejos e aproveite cada mordida enquanto cria a sua experiência única com a Burger House.
+      </p>
+      <div class="order__grid">
+        <div class="order__card">
+          <img src="assets/order-1.png" alt="order" />
+          <h4>Chicken Burger</h4>
+          <p>
+            Mergulhe no sabor eterno da perfeição do nosso Chicken Burger, uma experiência que nunca sai de moda.
+          </p>
+          <button class="btn">PEÇA JÁ</button>
+        </div>
+        <div class="order__card">
+          <img src="assets/order-2.png" alt="order" />
+          <h4>Veggie Burger</h4>
+          <p>
+            Abrace os sabores vibrantes do nosso Veggie Burger, uma celebração de frescor e sabor saudável.
+          </p>
+          <button class="btn">PEÇA JÁ</button>
+        </div>
+        <div class="order__card">
+          <img src="assets/order-3.png" alt="order" />
+          <h4>Bacon Burger</h4>
+          <p>
+            Delicie-se com o sabor defumado do nosso Bacon Burger, grelhado e coberto com bacon crocante.
+          </p>
+          <button class="btn">PEÇA JÁ</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container event__container" id="event">
+      <div class="event__content">
+        <div class="event__image">
+          <img src="assets/event.png" alt="event" />
+        </div>
+        <div class="event__details">
+          <h3>Descubra</h3>
+          <h2 class="section__header">PRÓXIMOS EVENTOS</h2>
+          <p class="section__description">
+            De degustações exclusivas de hambúrgueres a colaborações com chefs e eventos sazonais, sempre há algo especial na Burger House. Fique por dentro dos nossos próximos eventos, promoções e encontros, e junte-se a nós para criar momentos inesquecíveis e deliciosas memórias!
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="reservation" id="contact">
+      <div class="section__container reservation__container">
+        <h3>RESERVAS</h3>
+        <h2 class="section__header">FAÇA SUA RESERVA</h2>
+        <form action="/">
+          <input type="text" placeholder="NOME" />
+          <input type="email" placeholder="EMAIL" />
+          <input type="date" placeholder="DATA" />
+          <input type="time" placeholder="HORA" />
+          <input type="number" placeholder="PESSOAS" />
+          <button class="btn" type="submit">RESERVAR</button>
+        </form>
+      </div>
+      <img
+        src="assets/reservation-bg-1.png"
+        alt="reservation"
+        class="reservation__bg-1"
+      />
+      <img
+        src="assets/reservation-bg-2.png"
+        alt="reservation"
+        class="reservation__bg-2"
+      />
+    </section>
+
+    <footer class="footer">
+      <div class="section__container footer__container">
+        <div class="footer__logo">
+          <img src="assets/logo-white.png" alt="logo" />
+        </div>
+        <div class="footer__content">
+          <p>
+            Bem-vindo à Burger House, onde a paixão por comida excepcional e a verdadeira hospitalidade se encontram. Nossa história é de dedicação em criar a experiência perfeita de hambúrguer, desde a seleção dos melhores ingredientes até oferecer um sabor incomparável em cada mordida.
+          </p>
+          <div>
+            <ul class="footer__links">
+              <li>
+                <span><i class="ri-map-pin-2-fill"></i></span>
+                Rua Bangalore, 500. Jd. II<br> São José do Rio Preto - SP
+              </li>
+              <li>
+                <span><i class="ri-mail-fill"></i></span>
+                info@burgerhouse.com
+              </li>
+            </ul>
+            <div class="footer__socials">
+              <a href="#"><i class="ri-facebook-circle-fill"></i></a>
+              <a href="#"><i class="ri-instagram-fill"></i></a>
+              <a href="#"><i class="ri-twitter-fill"></i></a>
+              <a href="#"><i class="ri-whatsapp-fill"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2024 Burger House. Todos os direitos reservados.
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
